@@ -2,6 +2,16 @@
 body {
   overflow-x: hidden;
   @include body-font;
+  font-size: .8rem;
+}
+
+@media(min-width:768px) {
+    body {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
 }
 
 p {
@@ -29,12 +39,17 @@ h6 {
   @include heading-font;
 }
 
+h4 {
+    font-size: 1.1rem;
+}
+
+
 section {
   padding: 100px 0;
   h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   h3.section-subheading {
     font-size: 16px;
@@ -48,6 +63,10 @@ section {
 @media(min-width:768px) {
   section {
     padding: 150px 0;
+    h2.section-heading {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
   }
 }
 

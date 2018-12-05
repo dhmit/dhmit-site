@@ -1,7 +1,14 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: .8rem; }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem; }
+
+  h4 {
+    font-size: 1.5rem; } }
 p {
   line-height: 1.75; }
 
@@ -22,12 +29,15 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
 
+h4 {
+  font-size: 1.1rem; }
+
 section {
   padding: 100px 0; }
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
@@ -38,7 +48,10 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 150px 0; }
+    section h2.section-heading {
+      font-size: 40px;
+      margin-bottom: 15px; } }
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700; }
@@ -151,7 +164,6 @@ header.masthead:after {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(/wp-content/uploads/2010/11/tandem.jpg);
   width: 100%;
   height: 100%;
   opacity: 0.2;
@@ -427,19 +439,31 @@ header.masthead:after {
 #lab {
   background-color: #bbbdaf; }
   #lab .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center; }
     #lab .team-member img {
-      width: 225px;
-      height: 225px;
-      border: 7px solid #fff; }
+      width: 100px;
+      height: 100px;
+      border: 4px solid #fff; }
     #lab .team-member h4 {
-      margin-top: 25px;
       margin-bottom: 0;
       text-transform: none; }
     #lab .team-member p {
       margin-top: 0; }
+    #lab .team-member.team-member-lg img {
+      width: 200px;
+      height: 200px;
+      border: 7px solid #fff; }
 
+@media (min-width: 768px) {
+  #lab .team-member {
+    margin-bottom: 50px; }
+    #lab .team-member h4 {
+      margin-top: 25px; }
+    #lab .team-member:not(.team-member-lg) img {
+      width: 150px;
+      height: 150px;
+      border: 5px solid #fff; } }
 section#contact {
   background-color: #212529; }
   section#contact .section-heading {
