@@ -454,16 +454,28 @@ header.masthead:after {
       width: 200px;
       height: 200px;
       border: 7px solid #fff; }
+    #lab .team-member.former img {
+      width: 80px;
+      height: 80px;
+      border-width: 3px; }
 
 @media (min-width: 768px) {
   #lab .team-member {
     margin-bottom: 50px; }
     #lab .team-member h4 {
       margin-top: 25px; }
+    #lab .team-member.former {
+      font-size: 90%; }
+      #lab .team-member.former h4 {
+        font-size: 90%; }
     #lab .team-member:not(.team-member-lg) img {
       width: 150px;
       height: 150px;
-      border: 5px solid #fff; } }
+      border: 5px solid #fff; }
+    #lab .team-member.former img {
+      width: 100px;
+      height: 100px;
+      border-width: 4px; } }
 section#contact {
   background-color: #212529; }
   section#contact .section-heading {
