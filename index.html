@@ -1,721 +1,773 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Digital Humanities at MIT">
-    <meta name="author" content="Michael Scott Cuthbert and the Programs in Digital Humanities at MIT">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Digital Humanities at MIT">
+  <meta name="author" content="Michael Scott Cuthbert and the Programs in Digital Humanities at MIT">
 
-    <title>Digital Humanities at MIT</title>
+  <title>Digital Humanities at MIT</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="css/dh.css" rel="stylesheet">
-    <!-- template "Agency" from Blackrock Digital LLC Code released by MIT license.
-         adaptation and design, Michael Scott Cuthbert 2018 -->
-  </head>
+  <!-- Custom styles for this template -->
+  <link href="css/dh.css" rel="stylesheet">
+  <!-- template "Agency" from Blackrock Digital LLC Code released by MIT license.
+       adaptation and design, Michael Scott Cuthbert 2018 -->
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Digital Humanities</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#mitshass">DH Across MIT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#lab">Lab</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.mit.edu/"><img src="/img/logos/MIT-logo-with-spelling-design1-large-lightgray-white.svg" height="20"></a>
-            </li>
-          </ul>
-        </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Digital Humanities</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#mitshass">DH Across MIT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lab">Lab</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mit.edu/"><img src="/img/logos/MIT-logo-with-spelling-design1-large-lightgray-white.svg" height="20"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">MIT School of Humanities, Arts, and Social Sciences</div>
+      <div class="intro-heading text-uppercase">Digital Humanities</div>
+    </div>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">MIT Digital Humanities</h2>
+        <h3 class="section-subheading text-muted">Programs, Projects, and Lab</h3>
       </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">MIT School of Humanities, Arts, and Social Sciences</div>
-          <div class="intro-heading text-uppercase">Digital Humanities</div>
-        </div>
-      </div>
-    </header>
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">MIT Digital Humanities</h2>
-            <h3 class="section-subheading text-muted">Programs, Projects, and Lab</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/code.png" alt="image of code">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="mainhead">Code</h4>
-                    <h4 class="subheading">Enhancing the Humanities through Programming</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                        Code in the Mellon-funded programs in Digital Humanities
-                        centers on an undergraduate-focused Laboratory for
-                        Digital Humanities (dhmit) that creates computer tools
-                        for solving problems in the humanities.
-                        In the lab,
-                        students harness their skills in computer science and
-                        programming to advance the state of
-                        knowledge in the humanities and to help empower less
-                        technically adept researchers and enthusiasts to use digital
-                        tools on their own.  All code from the project is
-                        open source and hosted on <a href="https://github.com/dhmit" target=_new>GitHub</a>
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/communication.png" alt="Stephan Risi working with students">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="mainhead">Communication</h4>
-                    <h4 class="subheading">Faculty & Student Research</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                        The Programs in Digital Humanities supports a DH-focused,
-                        collaboration-based seed grant program that allows
-                        Faculty and Staff to be in residence in the lab and
-                        work closely with undergraduate students, postdocs, and
-                        technical professionals to create projects related to
-                        their research and teaching.  Faculty and students learn
-                        to speak each other's language, students learn the joys
-                        and difficulties of faculty research interests, and, by communicating at
-                        each stage of the research and development, avoid
-                        the pitfalls that plague so many DH projects.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/community.png" alt="gathering of digital practitioners">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="mainhead">Community</h4>
-                    <h4 class="subheading">MIT, Boston, and Graduate Engagement</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                        The DH programs at MIT host a lecture series and
-                        beginning in 2019 visiting scholar residencies and
-                        hackathons. Additional undergraduate and graduate
-                        courses in DH are planned, culminating in a graduate
-                        certificate in Digital Humanities.  The community
-                        of digital practictioners reflects the rich diversity
-                        of the campus and the nation.  Inclusivity is a core
-                        value of the Programs in Digital Humanities at MIT.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <img class="rounded-circle img-fluid" src="img/logos/DH_logo_white_square_lores.png" alt="DH Logo: D & H in Morse Code">
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- project Grid -->
-    <section id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">Completed and Upcoming Digital Humanities Projects.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 project-item">
-            <a class="project-link" data-toggle="modal" href="#projectModal_1">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <i class="fas fa-question-circle fa-3x"></i>
-                </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/code.png" alt="image of code">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="mainhead">Code</h4>
+                <h4 class="subheading">Enhancing the Humanities through Programming</h4>
               </div>
-              <img class="img-fluid" src="img/project/genderNovels-thumbnail.jpg" alt="">
-            </a>
-            <div class="project-caption">
-              <h4>Gender / Novels</h4>
-              <p class="text-muted">Computational Reading of Gender in Novels, 1770–1922</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 project-item">
-            <a class="project-link" data-toggle="modal" href="#projectModal_2">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <i class="fas fa-question-circle fa-3x"></i>
-                </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Code in the Mellon-funded programs in Digital Humanities
+                  centers on an undergraduate-focused Laboratory for
+                  Digital Humanities (dhmit) that creates computer tools
+                  for solving problems in the humanities.
+                  In the lab,
+                  students harness their skills in computer science and
+                  programming to advance the state of
+                  knowledge in the humanities and to help empower less
+                  technically adept researchers and enthusiasts to use digital
+                  tools on their own.  All code from the project is
+                  open source and hosted on <a href="https://github.com/dhmit" target=_new>GitHub</a>
+                </p>
               </div>
-              <img class="img-fluid" src="img/project/computationHist-thumbnail.jpg" alt="Women working at a 1940s computer">
-            </a>
-            <div class="project-caption">
-              <h4>Computation History</h4>
-              <p class="text-muted">History of Computing at MIT, 1950–1962 (in progress)</p>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 project-item">
-            <a class="project-link" data-toggle="modal" href="#projectModal_3">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <i class="fas fa-question-circle fa-3x"></i>
-                </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/communication.png" alt="Stephan Risi working with students">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="mainhead">Communication</h4>
+                <h4 class="subheading">Faculty & Student Research</h4>
               </div>
-              <img class="img-fluid" src="img/project/foxHarrell-thumbnail.jpg" alt="Fox Harrell (CMS/CSAIL) representing faculty research">
-            </a>
-            <div class="project-caption">
-              <h4>Faculty Research</h4>
-              <p class="text-muted">Two projects for 2019–20 to be announced soon.</p>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  The Programs in Digital Humanities supports a DH-focused,
+                  collaboration-based seed grant program that allows
+                  Faculty and Staff to be in residence in the lab and
+                  work closely with undergraduate students, postdocs, and
+                  technical professionals to create projects related to
+                  their research and teaching.  Faculty and students learn
+                  to speak each other's language, students learn the joys
+                  and difficulties of faculty research interests, and, by communicating at
+                  each stage of the research and development, avoid
+                  the pitfalls that plague so many DH projects.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/community.png" alt="gathering of digital practitioners">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="mainhead">Community</h4>
+                <h4 class="subheading">MIT, Boston, and Graduate Engagement</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  The DH programs at MIT host a lecture series and
+                  beginning in 2019 visiting scholar residencies and
+                  hackathons. Additional undergraduate and graduate
+                  courses in DH are planned, culminating in a graduate
+                  certificate in Digital Humanities.  The community
+                  of digital practictioners reflects the rich diversity
+                  of the campus and the nation.  Inclusivity is a core
+                  value of the Programs in Digital Humanities at MIT.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/logos/DH_logo_white_square_lores.png" alt="DH Logo: D & H in Morse Code">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- project Grid -->
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Projects</h2>
+        <h3 class="section-subheading text-muted">Completed and Upcoming Digital Humanities Projects.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 project-item">
+        <a class="project-link" data-toggle="modal" href="#projectModal_1">
+          <div class="project-hover">
+            <div class="project-hover-content">
+              <i class="fas fa-question-circle fa-3x"></i>
             </div>
           </div>
+          <img class="img-fluid" src="img/project/genderNovels-thumbnail.jpg" alt="">
+        </a>
+        <div class="project-caption">
+          <h4>Gender / Novels</h4>
+          <p class="text-muted">Computational Reading of Gender in Novels, 1770–1922</p>
         </div>
       </div>
-    </section>
-
-    <!-- MIT & SHASS -->
-    <section id="mitshass">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">DH Across MIT</h2>
-            <h3 class="section-subheading text-muted">Digital Humanities Projects across the Institute</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <div>
-                <a href="http://hyperstudio.mit.edu/" title="Hyperstudio website"><img class="img-fluid" src="img/acrossMIT/hyperstudio.jpg" alt="HyperStudio Logo"></a>
+      <div class="col-md-4 col-sm-6 project-item">
+        <a class="project-link" data-toggle="modal" href="#projectModal_2">
+          <div class="project-hover">
+            <div class="project-hover-content">
+              <i class="fas fa-question-circle fa-3x"></i>
             </div>
-            <h4 class="service-heading">HyperStudio</h4>
-            <p class="text-muted">HyperStudio is a DH research group in Comparative Media Studies/Writing led by Dr. Kurt Fendt.  Successes include many projects including the software package, Annotation Studio.</p>
           </div>
-          <div class="col-md-4">
+          <img class="img-fluid" src="img/project/computationHist-thumbnail.jpg" alt="Women working at a 1940s computer">
+        </a>
+        <div class="project-caption">
+          <h4>Computation History</h4>
+          <p class="text-muted">History of Computing at MIT, 1950–1962 (in progress)</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 project-item">
+        <a class="project-link" data-toggle="modal" href="#projectModal_3">
+          <div class="project-hover">
+            <div class="project-hover-content">
+              <i class="fas fa-question-circle fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/project/foxHarrell-thumbnail.jpg" alt="Fox Harrell (CMS/CSAIL) representing faculty research">
+        </a>
+        <div class="project-caption">
+          <h4>Faculty Research</h4>
+          <p class="text-muted">Two projects for 2019–20 to be announced soon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MIT & SHASS -->
+<section id="mitshass">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">DH Across MIT</h2>
+        <h3 class="section-subheading text-muted">Digital Humanities Projects across the Institute</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div>
+          <a href="http://hyperstudio.mit.edu/" title="Hyperstudio website"><img class="img-fluid" src="img/acrossMIT/hyperstudio.jpg" alt="HyperStudio Logo"></a>
+        </div>
+        <h4 class="service-heading">HyperStudio</h4>
+        <p class="text-muted">HyperStudio is a DH research group in Comparative Media Studies/Writing led by Dr. Kurt Fendt.  Successes include many projects including the software package, Annotation Studio.</p>
+      </div>
+      <div class="col-md-4">
             <span class="fa-stack fa-4x"><a href="https://libguides.mit.edu/c.php?g=176357&p=1344040" title="MIT Libraries DH Guides">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-book fa-stack-1x fa-inverse"></i></a>
             </span>
-            <h4 class="service-heading">MIT Libraries</h4>
-            <p class="text-muted">
-                The MIT Libraries maintain a list of collections of DH Projects at MIT and Beyond.
-            </p>
-          </div>
-          <div class="col-md-4">
-              <div class="pt-4">
-                  <a href="https://shass.mit.edu/search?query=Digital+Humanities" title="MIT SHASS website digital humanities"><img class="img-fluid" src="img/acrossMIT/shass_color.jpg" alt="SHASS Logo"></a>
-              </div>
-            <h4 class="service-heading">MIT SHASS</h4>
-            <p class="text-muted">
-                The School of Humanities, Arts, and Social Sciences (SHASS) at MIT
-                showcases numerous faculty, staff, and student projects in Digital
-                Humanities.
-            </p>
-          </div>
+        <h4 class="service-heading">MIT Libraries</h4>
+        <p class="text-muted">
+          The MIT Libraries maintain a list of collections of DH Projects at MIT and Beyond.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <div class="pt-4">
+          <a href="https://shass.mit.edu/search?query=Digital+Humanities" title="MIT SHASS website digital humanities"><img class="img-fluid" src="img/acrossMIT/shass_color.jpg" alt="SHASS Logo"></a>
+        </div>
+        <h4 class="service-heading">MIT SHASS</h4>
+        <p class="text-muted">
+          The School of Humanities, Arts, and Social Sciences (SHASS) at MIT
+          showcases numerous faculty, staff, and student projects in Digital
+          Humanities.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Lab -->
+<section id="lab">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Digital Humanities</h2>
+        <h3 class="section-subheading text-muted">Staff and Members</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="team-member team-member-lg">
+          <img class="mx-auto rounded-circle" src="img/team/Cuthbert_Michael.jpg" alt="Michael Scott Cuthbert">
+          <h4>Michael Scott Cuthbert</h4>
+          <p class="text-muted">Faculty Director & Associate Professor</p>
         </div>
       </div>
-    </section>
-
-
-    <!-- Lab -->
-    <section id="lab">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Digital Humanities</h2>
-            <h3 class="section-subheading text-muted">Staff and Members</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <div class="team-member team-member-lg">
-              <img class="mx-auto rounded-circle" src="img/team/Cuthbert_Michael.jpg" alt="Michael Scott Cuthbert">
-              <h4>Michael Scott Cuthbert</h4>
-              <p class="text-muted">Faculty Director & Associate Professor</p>
-            </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member team-member-lg">
-              <img class="mx-auto rounded-circle" src="img/team/Risi_Stephan.jpg" alt="Stephan Risi">
-              <h4>Stephan Risi</h4>
-              <p class="text-muted">Postdoctoral Associate</p>
-              <!-- <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul> -->
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member team-member-lg">
-              <img class="mx-auto rounded-circle" src="img/team/Tagliaferri_Lisa.jpg" alt="Lisa Tagliaferri">
-              <h4>Lisa Tagliaferri</h4>
-              <p class="text-muted">Postdoctoral Associate</p>
-            </div>
-          </div>
-            <div class="col-sm-4">
-              <div class="team-member  team-member-lg">
-                <img class="mx-auto rounded-circle" src="img/team/Fountain_Nicole.jpg" alt="Nicole Fountain">
-                <h4>Nicole Fountain</h4>
-                <p class="text-muted">Administrative Assistant II</p>
-              </div>
-            </div>
-        </div>
-        <!-- students -->
-        <div class="row">
-          <div class="col-6 col-sm-4 col-md-2">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Atia_Dina.jpg" alt="Dina Atia">
-              <h4>Dina Atia</h4>
-              <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-            </div>
-          </div>
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Boal_Elena.jpg" alt="Elena Boal">
-                <h4>Elena Boal</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Culbertson_Alena.jpg" alt="Alena Culbertson">
-                  <h4>Alena Culbertson</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/DaCosta_Howard.jpg" alt="Howard DaCosta">
-                  <h4>Howard DaCosta</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Gallegos_Maritza.jpg" alt="Martiza Gallegos">
-                  <h4>Maritza Gallegos</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Ismoldayeva_Assel.jpg" alt="Assel Ismoldayeva">
-                <h4>Assel Ismoldayeva</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-            </div>
-            <div class="row">
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Itambo_Elsa.jpg" alt="Elsa Itamnbo">
-                  <h4>Elsa Itambo</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Minsky_Charlotte.jpg" alt="Charlotte Minsky">
-                  <h4>Charlotte Minsky</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                  <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Murray_Keith.jpg" alt="Keith Murray">
-                    <h4>Keith Murray</h4>
-                    <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                  </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                  <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Pan_Carol.jpg" alt="Carol Pan">
-                    <h4>Carol Pan</h4>
-                    <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                  </div>
-              </div>
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Sundaram_Shobhita.jpg" alt="Shobhita Sundaram">
-                <h4>Shobhita Sundaram</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Tran_Felix.jpg" alt="Felix Tran">
-                  <h4>Felix Tran</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Xu_Katherine.jpg" alt="Katherine Xu">
-                  <h4>Katherine Xu</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/York_Samantha.jpg" alt="Samantha York">
-                  <h4>Samantha York</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Zhi_Sophia.jpg" alt="Sophia Zhi">
-                <h4>Sophia Zhi</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6 col-sm-4 col-md-2">
-            </div>
-              <div class="col-sm-4 col-lg-2 align-middle pt-5">
-                <div class="team-member">
-                  <h4>Former Lab Members</h4>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Johnston_Bridget.jpg" alt="Bridget Johnston">
-                  <h4>Bridget Johnston</h4>
-                  <p class="text-muted">Administrative Assistant (Temporary)</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Chen_Susanna.jpg" alt="Susanna Chen">
-                  <h4>Susanna Chen</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels</p>
-                </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Li_Michelle.jpg" alt="Michelle Li">
-                  <h4>Michelle Li</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels</p>
-                </div>
-              </div>
-          </div>
-	  <div class="row">	    
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Caragay_Emily.jpg" alt="Emily Caragay">
-                <h4>Emily Caragay</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Merrill_Kelsey.jpg" alt="Kelsey Merrill">
-                  <h4>Kelsey Merrill</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-            <div class="col-6 col-sm-4 col-md-2">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Redlon_Isaac.jpg" alt="Isaac Redlon">
-                <h4>Isaac Redlon</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-              </div>
-            </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                  <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Duan_Mingfei.jpg" alt="Mingfei Duan">
-                    <h4>Mingfei Duan</h4>
-                <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                  </div>
-              </div>
-              <div class="col-6 col-sm-4 col-md-2">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="img/team/Yen_Derek.jpg" alt="Derek Yen">
-                  <h4>Derek Yen</h4>
-                  <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
-                </div>
-              </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h4>Steering Committee</h4>
-            <p class="large text-muted">
-                <a href="http://arayo.scripts.mit.edu/home/" target=_new>Agustín Rayo</a> (<i>Associate Dean, SHASS, ex-offico, and Professor of Philosophy</i>)<br />
-                <a href="http://groups.csail.mit.edu/icelab/?q=user/2" target=_new>D. Fox Harrell</a> (<i>Professor of Digital Media &amp; AI</i>)<br />
-                <a href="https://anthropology.mit.edu/people/faculty/graham-jones" target=_new>Graham M. Jones</a> (<i>Associate Professor of Anthropology</i>)<br />
-                <a href="https://history.mit.edu/people/jeffrey-s-ravel" target=_new>Jeffery S Ravel</a> (<i>Professor of History</i>)<br />
-                <a href="https://nickm.com" target=_new>Nick Montfort</a> (<i>Professor of Digital Media</i>)<br />
-                <a href="http://www.shigerumiyagawa.com" target=_new>Shigeru Miyagawa</a> (<i>Professor of Linguistics & Kochi-Manjiro Professor of Japanese Language and Culture, Senior Asssociate Dean for Open Learning</i>)<br />
-                <a href="https://lit.mit.edu/people/sframpton/" target=_new>Stephanie Ann Frampton</a> (<i>Associate Professor of Literature</i>)<br />
-                <a href="https://aikawa.mit.edu" target=_new>Takako Aikawa</a> (<i>Senior Lecturer in Japanese</i>)
-            </p>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member team-member-lg">
+          <img class="mx-auto rounded-circle" src="img/team/Risi_Stephan.jpg" alt="Stephan Risi">
+          <h4>Stephan Risi</h4>
+          <p class="text-muted">Postdoctoral Associate</p>
+          <!-- <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul> -->
         </div>
       </div>
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact DH</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mainText text-center">
-              <p>
-                  <a href="mailto:digitalhumanities-admin@mit.edu">digitalhumanities-admin@mit.edu</a><br>
-                  +1 (617) 324-0102<br />
-                  77 Massachusetts Ave.<br />
-                  Building 16-635<br />
-                  Cambridge, MA 02139 USA
-              </p>
-          </div>
+      <div class="col-sm-4">
+        <div class="team-member team-member-lg">
+          <img class="mx-auto rounded-circle" src="img/team/Tagliaferri_Lisa.jpg" alt="Lisa Tagliaferri">
+          <h4>Lisa Tagliaferri</h4>
+          <p class="text-muted">Postdoctoral Associate</p>
         </div>
       </div>
-    </section>
+      <div class="col-sm-4">
+        <div class="team-member  team-member-lg">
+          <img class="mx-auto rounded-circle" src="img/team/Fountain_Nicole.jpg" alt="Nicole Fountain">
+          <h4>Nicole Fountain</h4>
+          <p class="text-muted">Administrative Assistant II</p>
+        </div>
+      </div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+    <!-- students -->
+    <div class="row">
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Alan Abreu">
+          <h4>Alan Abreu</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Ademolu-Odeneye_Ife.jpg" alt="Ife Ademolu-Odeneye">
+          <h4>Ife Ademolu-Odeneye</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Atia_Dina.jpg" alt="Dina Atia">
+          <h4>Dina Atia</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Rikita Bansal">
+          <h4>Rikita Bansal</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Boal_Elena.jpg" alt="Elena Boal">
+          <h4>Elena Boal</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Angelica Catillejos">
+          <h4>Angelica Catillejos</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Duan_Mingfei.jpg" alt="Mingfei Duan">
+          <h4>Mingfei Duan</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Gallegos_Maritza.jpg" alt="Martiza Gallegos">
+          <h4>Maritza Gallegos</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Montserrat Garza">
+          <h4>Montserrat Garza</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Meesue Kim">
+          <h4>Meesue Kim</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Murray_Keith.jpg" alt="Keith Murray">
+          <h4>Keith Murray</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Pan_Carol.jpg" alt="Carol Pan">
+          <h4>Carol Pan</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/logos/DH_logo_white_square_lores.png" alt="Mayowa Songonuga">
+          <h4>Mayowa Songonuga</h4>
+          <p class="text-muted">UROP<br/>Comp/Hist</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Tran_Felix.jpg" alt="Felix Tran">
+          <h4>Felix Tran</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/York_Samantha.jpg" alt="Samantha York">
+          <h4>Samantha York</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- former -->
+    <div class="row">
+      <div class="col-6 col-sm-4 col-md-2">
+      </div>
+      <div class="col-sm-4 col-lg-2 align-middle pt-5">
+        <div class="team-member">
+          <h4>Former Program/Lab Members</h4>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Johnston_Bridget.jpg" alt="Bridget Johnston">
+          <h4>Bridget Johnston</h4>
+          <p class="text-muted">Administrative Assistant (Temporary)</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Caragay_Emily.jpg" alt="Emily Caragay">
+          <h4>Emily Caragay</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Culbertson_Alena.jpg" alt="Alena Culbertson">
+          <h4>Alena Culbertson</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/DaCosta_Howard.jpg" alt="Howard DaCosta">
+          <h4>Howard DaCosta</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Ismoldayeva_Assel.jpg" alt="Assel Ismoldayeva">
+          <h4>Assel Ismoldayeva</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Itambo_Elsa.jpg" alt="Elsa Itamnbo">
+          <h4>Elsa Itambo</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Merrill_Kelsey.jpg" alt="Kelsey Merrill">
+          <h4>Kelsey Merrill</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Minsky_Charlotte.jpg" alt="Charlotte Minsky">
+          <h4>Charlotte Minsky</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Redlon_Isaac.jpg" alt="Isaac Redlon">
+          <h4>Isaac Redlon</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Sundaram_Shobhita.jpg" alt="Shobhita Sundaram">
+          <h4>Shobhita Sundaram</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Xu_Katherine.jpg" alt="Katherine Xu">
+          <h4>Katherine Xu</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Yen_Derek.jpg" alt="Derek Yen">
+          <h4>Derek Yen</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Zhi_Sophia.jpg" alt="Sophia Zhi">
+          <h4>Sophia Zhi</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels<br>Comp/Hist</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Chen_Susanna.jpg" alt="Susanna Chen">
+          <h4>Susanna Chen</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-2">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team/Li_Michelle.jpg" alt="Michelle Li">
+          <h4>Michelle Li</h4>
+          <p class="text-muted">UROP<br/>Gender/Novels</p>
+        </div>
+      </div>
+    <!-- end former -->
+    </div>
+
+
+    <!-- steering committee -->
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h4>Steering Committee</h4>
+        <p class="large text-muted">
+          <a href="http://arayo.scripts.mit.edu/home/" target=_new>Agustín Rayo</a> (<i>Associate Dean, SHASS, ex-offico, and Professor of Philosophy</i>)<br />
+          <a href="http://groups.csail.mit.edu/icelab/?q=user/2" target=_new>D. Fox Harrell</a> (<i>Professor of Digital Media &amp; AI</i>)<br />
+          <a href="https://anthropology.mit.edu/people/faculty/graham-jones" target=_new>Graham M. Jones</a> (<i>Associate Professor of Anthropology</i>)<br />
+          <a href="https://history.mit.edu/people/jeffrey-s-ravel" target=_new>Jeffery S Ravel</a> (<i>Professor of History</i>)<br />
+          <a href="https://nickm.com" target=_new>Nick Montfort</a> (<i>Professor of Digital Media</i>)<br />
+          <a href="http://www.shigerumiyagawa.com" target=_new>Shigeru Miyagawa</a> (<i>Professor of Linguistics & Kochi-Manjiro Professor of Japanese Language and Culture, Senior Asssociate Dean for Open Learning</i>)<br />
+          <a href="https://lit.mit.edu/people/sframpton/" target=_new>Stephanie Ann Frampton</a> (<i>Associate Professor of Literature</i>)<br />
+          <a href="https://aikawa.mit.edu" target=_new>Takako Aikawa</a> (<i>Senior Lecturer in Japanese</i>)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Contact DH</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 mainText text-center">
+        <p>
+          <a href="mailto:digitalhumanities-admin@mit.edu">digitalhumanities-admin@mit.edu</a><br>
+          +1 (617) 324-0102<br />
+          77 Massachusetts Ave.<br />
+          Building 16-635<br />
+          Cambridge, MA 02139 USA
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
             <span class="copyright">Copyright &copy; 2018<br>
                 MIT Programs in Digital Humanities</span>
-          </div>
-          <div class="col-md-4">
-              <a class="nav-link" href="https://www.mit.edu/"><img src="/img/logos/MIT-logo-with-spelling-design1-large-black-red.svg" height="60"></a>
-          </div>
-          <div class="col-md-4">
-              <span class="pr-2">Generously funded in part by</span> <a href="https://www.mellon.org/"><img height=60 src="img/logos/Mellon_Transparent_LoRes_Light_BG.png" alt="Mellon Foundation Logo"></a>
-          </div>
+      </div>
+      <div class="col-md-4">
+        <a class="nav-link" href="https://www.mit.edu/"><img src="/img/logos/MIT-logo-with-spelling-design1-large-black-red.svg" height="60"></a>
+      </div>
+      <div class="col-md-4">
+        <span class="pr-2">Generously funded in part by</span> <a href="https://www.mellon.org/"><img height=60 src="img/logos/Mellon_Transparent_LoRes_Light_BG.png" alt="Mellon Foundation Logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- project Modals -->
+
+<!-- Modal 1 -->
+<div class="project-modal modal fade" id="projectModal_1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
         </div>
       </div>
-    </footer>
-
-    <!-- project Modals -->
-
-    <!-- Modal 1 -->
-    <div class="project-modal modal fade" id="projectModal_1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase"><a href="http://gendernovels.digitalhumanitiesmit.org/" target=_new>Gender / Novels</a></h2>
-                  <p class="item-intro text-muted">Computational Reading of Gender in Novels, 1770–1922</p>
-                  <img class="img-fluid d-block mx-auto" src="img/project/genderNovels-full.jpg" alt="Forbidden Books by Alexander Mark Rossi">
-                  <p>
-                  The first project of the MIT Digital Humanities Lab analyzed the description of gender and gender roles across a large repertory of novels in the English language, primarily from the nineteenth century and early twentieth century. Our goal was to build computational tools that helped us understand how conceptions of gender were expressed and changed through distant reading of thousands of books. Our database involves over 4200 novels sourced from the Gutenberg project and gives us a comprehensive look at the views of authors of the time period.
-                  </p>
-                  <ul class="list-inline">
-                    <li>September - November 2018</li>
-                    <li>Student Project (UROP)</li>
-                    <li>Open Source: <a href="https://github.com/dhmit/gender_novels" target=_new>Code on GitHub</a></li>
-                    <li>
-                        Project link: <a href="http://gendernovels.digitalhumanitiesmit.org/" target=_new>http://gendernovels.digitalhumanitiesmit.org/</a>
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase"><a href="http://gendernovels.digitalhumanitiesmit.org/" target=_new>Gender / Novels</a></h2>
+              <p class="item-intro text-muted">Computational Reading of Gender in Novels, 1770–1922</p>
+              <img class="img-fluid d-block mx-auto" src="img/project/genderNovels-full.jpg" alt="Forbidden Books by Alexander Mark Rossi">
+              <p>
+                The first project of the MIT Digital Humanities Lab analyzed the description of gender and gender roles across a large repertory of novels in the English language, primarily from the nineteenth century and early twentieth century. Our goal was to build computational tools that helped us understand how conceptions of gender were expressed and changed through distant reading of thousands of books. Our database involves over 4200 novels sourced from the Gutenberg project and gives us a comprehensive look at the views of authors of the time period.
+              </p>
+              <ul class="list-inline">
+                <li>September - November 2018</li>
+                <li>Student Project (UROP)</li>
+                <li>Open Source: <a href="https://github.com/dhmit/gender_novels" target=_new>Code on GitHub</a></li>
+                <li>
+                  Project link: <a href="http://gendernovels.digitalhumanitiesmit.org/" target=_new>http://gendernovels.digitalhumanitiesmit.org/</a>
+                </li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Modal 2 -->
-    <div class="project-modal modal fade" id="projectModal_2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Computation History</h2>
-                  <p class="item-intro text-muted">History of Computing at MIT, 1950–1962</p>
-                  <img class="img-fluid d-block mx-auto" src="img/project/computationHist-full.jpg" alt="top: MIT Whirlwind Computer / bottom: Colossus British computer with operators (both images courtesy Wikipedia)">
-                  <p>
-                      MIT recently announced the creation of the Schwarzman College of Computing
-                      to begin in 2019, affording the perfect opportunity as
-                      humanists to reflect on the history of computation at the
-                      Institute in the past.  The project mixes archival work
-                      in the Institute's <a href="https://libraries.mit.edu/archives/" target=_new>Archives and Special Collections</a>
-                      with coding skills (including old computer simulation)
-                      to create a digital repository of information about how
-                      computing was integrated into the history of MIT.  By not
-                      just focusing on principal figures such as Philip Morse but
-                      also the people who maintained the computers and facilitated
-                      their use, the Computation History project aims to give
-                      a deep and balanced insight into how computation has
-                      transformed the Institute, the humanities, and the world.
-                  </p>
-                  <ul class="list-inline">
-                    <li>November 2018 - March 2019 (in progress)</li>
-                    <li>Student Project (UROP)</li>
-                    <li>Open Source: <a href="https://github.com/dhmit/computation_hist" target=_new>Code on GitHub</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
+<!-- Modal 2 -->
+<div class="project-modal modal fade" id="projectModal_2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Computation History</h2>
+              <p class="item-intro text-muted">History of Computing at MIT, 1950–1962</p>
+              <img class="img-fluid d-block mx-auto" src="img/project/computationHist-full.jpg" alt="top: MIT Whirlwind Computer / bottom: Colossus British computer with operators (both images courtesy Wikipedia)">
+              <p>
+                MIT recently announced the creation of the Schwarzman College of Computing
+                to begin in 2019, affording the perfect opportunity as
+                humanists to reflect on the history of computation at the
+                Institute in the past.  The project mixes archival work
+                in the Institute's <a href="https://libraries.mit.edu/archives/" target=_new>Archives and Special Collections</a>
+                with coding skills (including old computer simulation)
+                to create a digital repository of information about how
+                computing was integrated into the history of MIT.  By not
+                just focusing on principal figures such as Philip Morse but
+                also the people who maintained the computers and facilitated
+                their use, the Computation History project aims to give
+                a deep and balanced insight into how computation has
+                transformed the Institute, the humanities, and the world.
+              </p>
+              <ul class="list-inline">
+                <li>November 2018 - March 2019 (in progress)</li>
+                <li>Student Project (UROP)</li>
+                <li>Open Source: <a href="https://github.com/dhmit/computation_hist" target=_new>Code on GitHub</a></li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Modal 3 -->
-    <div class="project-modal modal fade" id="projectModal_3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Faculty Research</h2>
-                  <p class="item-intro text-muted">Projects for advancing Faculty and Staff Research and Pedagogy</p>
-                  <img class="img-fluid d-block mx-auto" src="img/project/facultyResearch-full.jpg" alt="Fox Harrell and Stephanie Frampton both of the Steering Committee">
-                  <p>
-                      In October of each year, the Projects in Digital Humanities at MIT
-                      invite Faculty and Teaching Staff of the School of Humanities,
-                      Arts, and Social Sciences to propose projects in research
-                      and teaching to conduct in the lab the following year.
-                      Projects are chosen for student learning opportunities,
-                      feasibility, and faculty commitment. Once selected, faculty
-                      spend part time for a semester in the lab as a
-                      substitute for one class of teaching (the DH programs compensate
-                      department and section heads for replacement teaching).
-                      Faculty in the lab work closely with undergraduate students, postdocs, and
-                      technical professionals to create projects related to
-                      their research and teaching.  Faculty and students learn
-                      to speak each others' language, students learn the joys
-                      and difficulties of faculty research interests, and, by communicating at
-                      each stage of the research and development, avoid
-                      the pitfalls that plague so many DH projects.
-                  </p>
-                  <ul class="list-inline">
-                    <li>ongoing, starting September 2019</li>
-                    <li>Faculty/Student Collaboration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
+<!-- Modal 3 -->
+<div class="project-modal modal fade" id="projectModal_3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Faculty Research</h2>
+              <p class="item-intro text-muted">Projects for advancing Faculty and Staff Research and Pedagogy</p>
+              <img class="img-fluid d-block mx-auto" src="img/project/facultyResearch-full.jpg" alt="Fox Harrell and Stephanie Frampton both of the Steering Committee">
+              <p>
+                In October of each year, the Projects in Digital Humanities at MIT
+                invite Faculty and Teaching Staff of the School of Humanities,
+                Arts, and Social Sciences to propose projects in research
+                and teaching to conduct in the lab the following year.
+                Projects are chosen for student learning opportunities,
+                feasibility, and faculty commitment. Once selected, faculty
+                spend part time for a semester in the lab as a
+                substitute for one class of teaching (the DH programs compensate
+                department and section heads for replacement teaching).
+                Faculty in the lab work closely with undergraduate students, postdocs, and
+                technical professionals to create projects related to
+                their research and teaching.  Faculty and students learn
+                to speak each others' language, students learn the joys
+                and difficulties of faculty research interests, and, by communicating at
+                each stage of the research and development, avoid
+                the pitfalls that plague so many DH projects.
+              </p>
+              <ul class="list-inline">
+                <li>ongoing, starting September 2019</li>
+                <li>Faculty/Student Collaboration</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/agency.min.js"></script>
 
-  </body>
+</body>
 
 </html>
