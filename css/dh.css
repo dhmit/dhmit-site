@@ -20,6 +20,18 @@ a {
 .text-primary {
   color: #fe3636 !important; }
 
+
+/* DH across MIT */
+#mitshass .card { border: 0; }
+
+#mitshass .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+}
+/* for creating row breaks in a card deck */
+#mitshass .flex-basis-100 { flex-basis: 100%; }
+
 h1,
 h2,
 h3,
