@@ -12,3 +12,19 @@
 @import "lab.scss";
 @import "contact.scss";
 @import "footer.scss";
+
+
+/* DH across MIT */
+#mitshass {
+    & .card { border: 0; }
+
+    & .card-img-top {
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+    }
+
+    /* for creating row breaks in a card deck */
+    & .flex-basis-100 { flex-basis: 100%; }
+}
+
