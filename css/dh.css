@@ -658,7 +658,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 #mitshass .card-img-top {
   width: 100%;
-  height: 30vh;
+  height: 25vh;
+  max-height: 150px;
   object-fit: contain;
 }
 #mitshass .flex-basis-100 {
