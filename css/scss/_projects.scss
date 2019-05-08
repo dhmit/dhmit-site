@@ -1,15 +1,27 @@
 // Styling for the project section
 #projects {
   background-color: $light-background-color;
+
   .project-item {
     right: 0;
     margin: 0 0 15px;
+    min-width: 200px;
+
+
+    .project-img {
+         width: 100%;
+         height: 25vh;
+         max-height: 25vw;
+         object-fit: contain;
+    }
+
     .project-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+
       .project-hover {
         position: absolute;
         width: 100%;
@@ -22,6 +34,7 @@
         &:hover {
           opacity: 1;
         }
+
         .project-hover-content {
           font-size: 20px;
           position: absolute;
@@ -41,6 +54,7 @@
         }
       }
     }
+
     .project-caption {
       max-width: 400px;
       margin: 0 auto;
@@ -79,7 +93,6 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
