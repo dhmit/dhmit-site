@@ -8,6 +8,7 @@
 @import "masthead.scss";
 @import "services.scss";
 @import "projects.scss";
+@import "events.scss";
 @import "timeline.scss";
 @import "lab.scss";
 @import "contact.scss";
@@ -28,4 +29,3 @@
     /* for creating row breaks in a card deck */
     & .flex-basis-100 { flex-basis: 100%; }
 }
-
