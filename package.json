@@ -33,7 +33,7 @@
         "popper.js": "^1.14.7"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.7",
+        "browser-sync": "^3.0.2",
         "gulp": "^3.0.2",
         "gulp-autoprefixer": "6.0.0",
         "gulp-clean-css": "3.10.0",
